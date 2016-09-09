@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<header></header>
+<!-- 1*********** -->
+<div id="Page1" class="page" style="">
+  <div class="wrapper">
+  <div id="hero">
+    <h1 id="wyf">What's your flavor?</h1>
+    <div class="center-page">
+    <br>
+
+    <button onclick="show('Page2');" class="btn blue" type="button" name="button">Tell me what's your flavor?</button>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- 2 definition  ---->
+<div id="Page2" class="page" style="display:none">
+  <div class="wrapper">
+  <div id="heroDefinitive">
+    <!-- <div class="center-page2"> -->
+      <h1 id="flavors">Savor the flavors!</h1>
+    <br>
+    <div id="flavorDiv">
+      <div id=incomplete>
+        <p>
+        <u>Carbonated:</u> "Want to have fun? add a little pizzazz with carbonation. Carbonation emits small bubbles that fizzes and tingles on the tongue."
+        </p>
+        <p>
+        <u>Sweet:</u> "Something for the dessert or you just want something that taste like candy? Try the ABSOLUT Chocolate Masked Martini it will definitely fill the cravings for your sweet tooth."
+        </p>
+        <p>
+        <u>Herb:</u> "What taste is herb, you might very well wonder? Well, drinks with flavoured basil, rosemary and thyme goes in this category. A significant drink with a herby taste is for example the Absolut Basil - a sweet marriage between peppar and basil."
+        </p>
+        <p>
+        <u>Fresh:</u> "Want to indulge in something fresh? Well here you are. The thing about fresh drinks is that they often include fruits like lemon to give a light and refreshing taste. Try the Daiquiri if you want a classic in this category."
+        </p>
+
+      </div>
+
+    </div>
+    <button onclick="show('Page3');" class="btn brown" type="button" name="button">Tell me what's your flavor?</button>
+    <!-- </div> -->
+  </div>
+  </div>
+</div>
+<!-- 3*********** -->
+<div id="Page3" class="page" style="display:none">
+  <div class="wrapper">
+  <div id="hero2">
+    <div class="center-page">
+    <h1 id="carbo">Carbonated?</h1>
+    <form class="form">
+    <div class="switch-field">
+      <input type="radio" id="switch_left1" name="switch_2" value="yes" checked/>
+      <label for="switch_left1">Yes</label>
+      <input type="radio" id="switch_right2" name="switch_2" value="no" />
+      <label for="switch_right2">No</label>
+    </div>
+    </form>
+    <br>
+
+    <button onclick="show('Page4');" class="btn red" type="button" name="button">Next</button>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- 4*********** -->
+<div id="Page4" class="page" style="display:none">
+  <div class="wrapper">
+  <div id="hero3">
+    <div class="center-page">
+    <h1 id="swt">Sweet?</h1>
+    <form class="form">
+    <div class="switch-field">
+      <input type="radio" id="switch_left3" name="switch_2" value="yes"checked/>
+      <label for="switch_left3">Yes</label>
+      <input type="radio" id="switch_right4" name="switch_2" value="no" />
+      <label for="switch_right4">No</label>
+    </div>
+    </form>
+    <br>
+
+    <button onclick="show('Page5');" class="btn yellow" type="button" name="button">Next</button>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- 5 Herb*********** -->
+<div id="Page5" class="page" style="display:none">
+  <div class="wrapper">
+  <div id="herbImg">
+    <div class="center-page">
+    <h1 id="hrb">Herbaceous?</h1>
+    <form class="form">
+    <div class="switch-field">
+      <input type="radio" id="herb_left" name="switch_2" value="yes"checked/>
+      <label for="herb_left">Yes</label>
+      <input type="radio" id="herb_right" name="switch_2" value="no" />
+      <label for="herb_right">No</label>
+    </div>
+    </form>
+    <br>
+
+    <button onclick="show('Page6');" class="btn gold" type="button" name="button">Next</button>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- 6*********** -->
+<div id="Page6" class="page" style="display:none">
+  <div class="wrapper">
+  <div id="hero4">
+    <div class="center-page">
+    <h1 id="swt">Fresh?</h1>
+    <form class="form">
+    <div class="switch-field">
+      <input type="radio" id="switch_left" name="switch_2" value="yes" checked/>
+      <label for="switch_left">Yes</label>
+      <input type="radio" id="switch_right" name="switch_2" value="no" />
+      <label for="switch_right">No</label>
+    </div>
+    </form>
+    <br>
+
+    <button onclick="show('Page7');" id="appendBtn" class="btn orange" type="button" name="button">Next</button>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- 7*********** -->
+<div id="Page7" class="page" style="display:none">
+  <div class="wrapper">
+  <div id="hero5">
+    <div class="outside">
+      <h1 id="final"></h1>
+       <ul id="recipes">
+
+       </ul>
+       <!-- <div id="bac" alt="" /><img id="bacos" src="images/baco.png" alt="" /></div> -->
+    </div>
+    <div id="youtube">
+    </div>
+    <div class="divbutton">
+      <input id="spicyImg" accept="" type="image" src="images/pepper.png" alt="Submit" />
+    </div>
+    <div class="divbutton">
+      <input id="bcnImg" onclick="myFunction()" accept="" type="image" src="images/5126.png" alt="Submit">
+    </div>
+    <br>
+      <button class="btn purple" onClick="location.reload();" type="button" name="button">Want Another Drink?</button>
+
+  </div>
+  </div>
+</div>
+<!-- scripts*********** -->
+  <script src="https://assets.absolutdrinks.com/api/addb-0.5.2.min.js" type="text/javascript"></script>
+  <script src="app1.js" charset="utf-8"></script>
+  <script src="app2.js" charset="utf-8"></script>
+  <footer></footer>
+  </body>
+</html>

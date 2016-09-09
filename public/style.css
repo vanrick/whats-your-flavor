@@ -1,0 +1,416 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+}
+header{
+  height: 7vh;
+  width: 100%;
+  background: black;
+}
+footer{
+  height: 7vh;
+  width: 100%;
+  background: black;
+}
+.wrapper{
+  height: 86vh;
+  width: 100%;
+}
+#hero{
+  background-image: url("images/4178415E1A.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+#wyf{
+  font-family: 'Lobster', cursive;
+  font-size: 7em;
+  margin: 0 0 0 27%;
+  color: white;
+}
+#wyf:hover{
+  color: #2ecc71;
+}
+.center-page{
+  color: white;
+  position: fixed;
+  bottom: 6.9%;
+  right: 33.3%;
+  height: 86vh;
+  width: 36%;
+  z-index: 1;
+  /*border: 1px solid white;*/
+}
+
+.outside{
+  float: left;
+  height: 86vh;
+  width: 45%;
+  /*border: 1px solid white;*/
+  z-index: 1;
+  bottom: 6.9%;
+  margin-left: 4.5%;
+  background-color: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+}
+#recipes{
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 1.8em;
+  list-style: none;
+  /*border: 1px solid white;*/
+  height: 80.1vh;
+  padding-left: 14%;
+  text-shadow: -1px 0 #9787B0, 0 1px #9787B0, 1px 0 #9787B0, 0 -1px #9787B0;
+  overflow:scroll;
+}
+.youtube{
+  float: right;
+  height: 86vh;
+  width: 45%;
+  /*border: 1px solid white;*/
+  z-index: 1;
+  bottom: 6.9%;
+  margin-right: 4.5%;
+  background-color: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+#carbo{
+  font-family: 'Pacifico', cursive;
+  font-size: 7em;
+  margin-left: 0%;
+}
+#carbo:hover{
+  color: #2ecc71;
+}
+#swt{
+  font-family: 'Pacifico', cursive;
+  font-size: 7em;
+  margin-left: 20%;
+}
+#swt:hover{
+  color: #2ecc71;
+}
+#hrb{
+  font-family: 'Pacifico', cursive;
+  font-size: 7em;
+  margin-left: 7%;
+}
+#hrb:hover{
+  color: #2ecc71;
+}
+#final{
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 1.3em;
+  margin-left: 15%;
+  text-shadow: -1px 0 #FD7536, 0 1px #FD7536, 1px 0 #FD7536, 0 -1px #FD7536;
+  text-decoration: underline;
+}
+#final:hover{
+  color: #2ecc71;
+}
+#flavors{
+  z-index: -1;
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 3em;
+  margin-left: 15%;
+  text-shadow: -1px 0 #B5956E, 0 1px #B5956E, 1px 0 #B5956E, 0 -1px #B5956E;
+  text-decoration: underline;
+}
+#flavors:hover{
+  color: #2ecc71;
+}
+#flavorDiv{
+  height: 70vh;
+  width: 95%;
+  /*border: 1px solid white;*/
+  z-index: 1;
+  bottom: 8%;
+  margin: 0 0 0 2%;
+  background-color: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+#incomplete{
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 1.8em;
+  list-style: none;
+  /*border: 1px solid white;*/
+  height: 66vh;
+  padding-left: 5%;
+  text-shadow: -1px 0 #300803, 0 1px #300803, 1px 0 #300803, 0 -1px #300803;
+  overflow:scroll;
+}
+#hero2{
+  background-image: url("images/drinks1.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+#hero3{
+  background-image: url("images/drink.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+#hero4{
+  background-image: url("images/sweet.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+#hero5{
+  background-image: url("images/final.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+#heroDefinitive{
+  background-image: url("images/Cocktails_flavors.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+#herbImg{
+  background-image: url("images/herb.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+.divbutton {
+    float: right;
+    height: 7.5vh;
+    width: 4%;
+    display: inline-block;
+    /*border: 1px solid white;*/
+    margin-right: 3.2%;
+}
+#spicyImg{
+  float: right;
+  height: 6.7vh;
+  width: 4vw;
+  margin-right: 2.4%;
+  display: none;
+}
+.divbutton:hover #spicyImg {
+  display: block;
+}
+#bcnImg{
+  float: right;
+  height: 6.7vh;
+  width: 4vw;
+  margin-right: 2.4%;
+  display: none;
+}
+#bac{
+  height: 6.7vh;
+  width: 4vw;
+  margin: -70% 0 10% 30%;
+  z-index: 2;
+}
+#bacos{
+  height: 6.7vh;
+  width: 4vw;
+  margin: -70% 0 10% 30%;
+  z-index: 2;
+}
+.di
+.divbutton:hover #bcnImg{
+  display: block;
+}
+/*--------buttons-------*/
+.btn {
+  cursor: pointer;
+  margin: 0.625em;
+  border-radius: 0.3125em;
+  text-decoration: none;
+  padding: 0.625em;
+  font-size: 1.375em;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  display: inline-block;
+}
+
+.btn:hover {
+  cursor: url(http://cur.cursors-4u.net/food/foo-5/foo501.cur), auto;
+}
+.blue {
+  color: #55acee;
+  border: 0.125em #55acee solid;
+  background-color: white;
+  margin: 65% 0 0 25%;
+}
+
+.blue:hover {
+  background-color: #55acee;
+  color: #fff
+}
+
+.gold {
+  color: #F0EEA0;
+  background-color: white;
+  border: 0.125em #BECE6C solid;
+  width: 50%;
+  margin: 60% 0 0 25%;
+}
+
+.gold:hover {
+  color: #fff;
+  background-color: #BECE6C;
+}
+
+.red {
+  color: #e74c3c;
+  background-color: white;
+  border: 0.125em #e74c3c solid;
+  width: 50%;
+  margin: 60% 0 0 25%;
+}
+
+.red:hover {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.purple {
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  width: 18%;
+  margin: 10% 0 0 -9%;
+  color: #FD7536;
+  border: 0.125em #FD7536 solid;
+}
+
+.purple:hover {
+  color: #fff;
+  background-color: #FD7536;
+}
+
+.orange {
+  color: #901119;
+  border: 0.125em #901119 solid;
+  background-color: white;
+  width: 50%;
+  margin: 60% 0 0 25%;
+}
+
+.orange:hover {
+  color: #fff;
+  background-color: #901119;
+}
+.brown {
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  width: 22%;
+  margin: -2% 0 0 40%;
+  color: #B5956E;
+  border: 0.125em #B5956E solid;
+}
+
+.brown:hover {
+  color: #fff;
+  background-color: #B5956E;
+}
+
+.yellow {
+  color: #F8EB8D;
+  background-color: white;
+  border: 0.125em #F8EB8D solid;
+  width: 50%;
+  margin: 60% 0 0 25%;
+}
+
+.yellow:hover {
+  color: #fff;
+  background-color: #F8EB8D;
+}
+
+.buttons {
+  padding-top: 1.875em;
+  text-align: center;
+}
+/*--------end of buttons-------*/
+/*--------yes no switches-------*/
+.switch-field {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+  padding: 0%;
+  overflow: hidden;
+  margin-left: 33%;
+}
+
+.switch-title {
+  /*margin-bottom: 1%;*/
+}
+
+.switch-field input {
+  display: none;
+}
+
+.switch-field label {
+  float: left;
+}
+
+.switch-field label {
+  display: inline-block;
+  width: 3.75em;
+  background-color: #e4e4e4;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.875em;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 0.375em 0.875em;
+  border: 0.0625em solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0.0625em 0.1875em rgba(0, 0, 0, 0.3), 0 0.0625em rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0.0625em 0.1875em rgba(0, 0, 0, 0.3), 0 0.0625em rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+  /*border-radius: 15%;*/
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #2ecc71;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 0.25em 0 0 0.25em;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 0.25em 0.25em 0;
+}
+/*--------end of yes no switches-------*/

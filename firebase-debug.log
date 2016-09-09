@@ -1,0 +1,39 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/RickV/.nvm/versions/node/v6.1.0/bin/node /Users/RickV/.nvm/versions/node/v6.1.0/bin/firebase deploy
+[debug] CLI Version:  3.0.2
+[debug] Platform:     darwin
+[debug] Node Version: v6.1.0
+[debug] Time:         Tue Jun 21 2016 10:20:04 GMT-0600 (MDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whats-your-flavor 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/whats-your-flavor/tokens 
+[debug] <<< HTTP RESPONSE 200
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/RickV/.nvm/versions/node/v6.1.0/bin/node /Users/RickV/.nvm/versions/node/v6.1.0/bin/firebase deploy
+[debug] CLI Version:  3.0.2
+[debug] Platform:     darwin
+[debug] Node Version: v6.1.0
+[debug] Time:         Tue Jun 21 2016 10:20:43 GMT-0600 (MDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whats-your-flavor 
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/RickV/.nvm/versions/node/v6.1.0/bin/node /Users/RickV/.nvm/versions/node/v6.1.0/bin/firebase deploy
+[debug] CLI Version:  3.0.2
+[debug] Platform:     darwin
+[debug] Node Version: v6.1.0
+[debug] Time:         Tue Jun 21 2016 10:21:14 GMT-0600 (MDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whats-your-flavor 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/whats-your-flavor/tokens 
+[debug] <<< HTTP RESPONSE 200
